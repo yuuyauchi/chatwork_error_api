@@ -28,13 +28,13 @@ paths:
          
           ●chatroom_list
           afitube
-          ppc_sales
+          auto_sales
         required: true
         type: "string"
         format: "int64"
       - name: "message"
         in: "formData"
-        description: "messages you want to send. please use a dictionary such as {'name':'Kai'} if you use requests.post()"
+        description: "messages you want to send. please use a dictionary and set 'message' as a key like {'message':'hogehoge'} if you use requests.post()"
         required: true
         type: "string"
       
